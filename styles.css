@@ -1,0 +1,30 @@
+.container {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid: 1fr 5fr / 1fr 5fr;
+}
+
+.sidebar {
+    background-color: lightskyblue;
+    grid-row: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.sidebar-pages {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.sidebar-miscs {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.main-content {
+    background-color: lightgray;
+}
